@@ -15,6 +15,7 @@ class SecurityApplicationTests {
 	void contextLoads() {
 
 		logger.info("inside test class");
+		logger.info("inside test class second test");
 		Assertions.assertEquals(true,true);
 	}
 
