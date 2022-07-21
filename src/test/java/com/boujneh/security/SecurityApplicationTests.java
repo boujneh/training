@@ -12,7 +12,7 @@ class SecurityApplicationTests {
 	static Logger logger= LoggerFactory.getLogger(SecurityApplicationTests.class);
 
 	@Test
-	void contextLoads() {
+	 contextLoads() {
 
 		logger.info("inside test class");
 		logger.info("inside test class second test");
