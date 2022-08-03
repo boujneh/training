@@ -1,9 +1,0 @@
-version: '3'
-services:
-  spring-boot-docker-container:
-    image: boujneh/spring-boot-docker.jar
-    ports:
-      - "9393:8080"
-    build:
-      context: "./"
-      dockerfile: "DockerFile"
